@@ -1,0 +1,4 @@
+# Faça um programa que lê o nome de uma pessoa e mostre uma mensagem de boa-vindas a ela
+nome = str(input("Qual é o seu nome? ")).title().strip() # Estou usando os métodos de Strings que vão ser apresentado pelo professor na aula 9 do mundo 1 de Python, lá o mesmo irá explicar qual a função de cada método, mas caso queira se informar antes, basta jogar no chatgpt qual a função de cada um deles
+
+print(f"Seja muito bem-vindo(a) {nome}") # Esse f, sendo usado no começo das aspas duplas é chamado de String dinâmica, é a versão atualiza do método format() que nas versões anteriores era usado para imprimir alguma mensagem no terminal
