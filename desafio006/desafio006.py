@@ -1,11 +1,14 @@
 """
-Faça um programa que lê um número inteiro e mostre o seu antecessor e o seu sucessor
+Crie um algoritmo que lê um número e mostre o seu dobro, seu triplo e sua raiz quadrada
 """
-número = int(input("Digite um valor mumérico: "))
+número = int(input("Digite um valor numérico: "))
 
-antecessor = número - 1
+dobro = número * 2
 
-sucessor = número + 1
+triplo = número * 3
 
-print(f"O antecessor de {número} é {antecessor}")
-print(f"O sucessor de {número} é {sucessor}")
+square_root = número ** (1/2) # Se quiser pode usar a função pow(), ela também retorna a raiz quadrada de um número
+
+print(f"O dobro de {número} é {dobro}")
+print(f"O triplo de {número} é {triplo}")
+print(f"A raiz quadrada de {número} é {square_root}")

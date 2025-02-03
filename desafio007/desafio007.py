@@ -1,11 +1,12 @@
 """
-Crie um algoritmo que lê um número e mostre na tela o seu dobro e a sua terça parte
+Crie um algoritmo que lê duas notas de uma aluno, calcule e moste a sua média
 """
-número = float(input("Digite um valor numérico: "))
+materia = str(input("Digite aqui a sua matéria escolar: ")).title().strip()
+nota_1 = float(input("Digite o valor da 1ª nota: "))
+nota_2 = float(input("Digite o valor da 2ª nota: "))
 
-dobro = número * 2
+# Calculando a média
+média = (nota_1 + nota_2) / 2 # O 2 indica a quantidade de elementos que estão dentro dois parênteses
 
-terça_parte = número / 3
-
-print(f"Seu dobro = {dobro}")
-print(f"Sua terça parte = {terça_parte:.5f}")
+# Exibindo a mensagem final
+print(f"A matéria informada pelo aluno foi {materia} e sua média nessa matéria é {média:.1f}")

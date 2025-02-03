@@ -1,10 +1,11 @@
 """
-Faça um programa que lê as duas notas de um aluno em uma máteria e mostre na tela a sua média na disciplina
+Faça um programa que lê um número inteiro e mostre o seu antecessor e o seu sucessor
 """
-materia = str(input("Digite o nome da matéria escolar: ")).strip()
-nota_1 = float(input("Digite o valor da 1ª nota: "))
-nota_2 = float(input("Digite o valor da 2ª nota: "))
+número = int(input("Digite um valor mumérico: "))
 
-média = (nota_1 + nota_2) / 2
+antecessor = número - 1
 
-print(f"A matéria informada pelo estudante foi {materia} e sua média nela foi {média:.1f}")
+sucessor = número + 1
+
+print(f"O antecessor de {número} é {antecessor}")
+print(f"O sucessor de {número} é {sucessor}")

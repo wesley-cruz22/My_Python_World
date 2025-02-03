@@ -1,8 +1,11 @@
 """
-Crie um programa que lê o nome e o salário de um funcionário, mostrando no final uma mensagem
+Crie um programa que lê dois números e mostre a soma entre eles
 """
-nome = str(input("Qual é o seu nome? ")).title().strip()
-salário = float(input("Qual é o seu montante salarial? R$"))
+num1 = int(input("Digite o 1º valor: "))
+num2 = int(input("Digite o 2º valor: "))
 
-print(f"O nome do funcionário é {nome}")
-print(f"Seu montante salário é {salário:.2f}") # Ao fazer uso desses dois ponto, ponto final, 2 e f. Eu estou declarando quantas casas decimais deve me retornar como resultado
+# Efetuando a soma
+soma = num1 + num2
+
+# Exibindo a mensagem na tela
+print(f"A soma entre {num1} e {num2} é igual {soma}")
